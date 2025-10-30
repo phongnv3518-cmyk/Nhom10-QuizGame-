@@ -1,0 +1,10 @@
+notepad $PROFILE
+Start-Venv -ProjectPath "D:/LTP-10" -VenvName "venv"
+
+# chạy máy ảo python
+& D:/LTP-10/venv/Scripts/Activate.ps1
+# chạy server 
+python -m server.server
+#hàm chạy client
+python -m client.gui_client
+
