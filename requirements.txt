@@ -1,0 +1,35 @@
+================================================================================
+                    HƯỚNG DẪN KHỞI ĐỘNG QUIZ GAME
+================================================================================
+
+QUAN TRỌNG: Phải khởi động SERVER TRƯỚC, sau đó mới khởi động CLIENT!
+
+BƯỚC 1: Khởi động Server (Terminal 1)
+--------------------------------------
+python -m server.server
+
+Hoặc với custom host/port:
+python -m server.server --host 0.0.0.0 --port 65432
+
+BƯỚC 2: Khởi động Client (Terminal 2 hoặc nhiều terminals)
+-----------------------------------------------------------
+python -m client.gui_client
+
+Hoặc với custom host/port:
+python -m client.gui_client --host 127.0.0.1 --port 65432
+
+LƯU Ý:
+-------
+• Server phải chạy TRƯỚC khi client kết nối
+• Server chạy ở một terminal riêng (không tắt)
+• Có thể mở nhiều clients cùng lúc (nhiều terminals)
+• Nếu thấy "Connection timeout" → Server chưa khởi động
+• Nếu thấy "No module named client.gui_client" → File thiếu hoặc sai cấu trúc
+
+DEMO:
+-----
+Terminal 1: python -m server.server      (Server GUI sẽ mở)
+Terminal 2: python -m client.gui_client  (Client GUI sẽ mở và kết nối)
+Terminal 3: python -m client.gui_client  (Client thứ 2, v.v...)
+
+================================================================================
