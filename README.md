@@ -1,34 +1,42 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
-# Update 1
-
-# Update 2
-
-# Update 3
-
-# Update 4
-
-# Update 5
-
-# Update 6
-
-# Update 7
-
-# Update 8
-
-# Update 9
-
-# Update 10
-
-# Update 11
 =======
-# Quiz Game Project
+```
+  ___  _   _ ___ ____     ____    _    __  __ _____ 
+ / _ \| | | |_ _|__  |   / ___|  / \  |  \/  | ____|
+| | | | | | || |  / /   | |  _  / _ \ | |\/| |  _|  
+| |_| | |_| || | / /_   | |_| |/ ___ \| |  | | |___ 
+ \__\_\\___/|___/____|   \____/_/   \_\_|  |_|_____|
+                                                     
+```
 
-A multiplayer quiz game with client-server architecture.
->>>>>>> 18fa873
-=======
-# Quiz Game Project
+# 🎮 QUIZ GAME - Trò Chơi Đố Vui Trực Tuyến
 
-A multiplayer quiz game with client-server architecture.
->>>>>>> 97336f5
+Một ứng dụng quiz game đa người chơi được xây dựng bằng Python với giao diện đồ họa Tkinter.
 
+## ✨ Tính năng
+
+- 🌐 Chơi trực tuyến nhiều người
+- 💬 Hệ thống chat realtime
+- 📊 Bảng xếp hạng điểm số
+- 🎯 Nhiều loại câu hỏi
+- 🖥️ Giao diện thân thiện
+
+## 🚀 Cài đặt
+
+```bash
+pip install -r requirements.txt
+```
+
+## 📖 Hướng dẫn sử dụng
+
+### Chạy Server
+```bash
+python server/server.py
+```
+
+### Chạy Client
+```bash
+python client/gui_client.py
+```
+
+>>>>>>> d5ca1b9 (docs: Add QUIZ GAME ASCII art title and complete README)
