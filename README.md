@@ -1,47 +1,39 @@
 ```
-  ____    _    _   _____   ______          _____              __  __   ______ 
- / __ \  | |  | | |_   _| |___  /         / ____|     /\     |  \/  | |  ____|
-| |  | | | |  | |   | |      / /   ____  | |  __     /  \    | \  / | | |__   
-| |  | | | |  | |   | |     / /   |____| | | |_ |   / /\ \   | |\/| | |  __|  
-| |__| | | |__| |  _| |_   / /__         | |__| |  / ____ \  | |  | | | |____ 
- \___\_\  \____/  |_____| /_____|         \_____| /_/    \_\ |_|  |_| |______|
-                                                                               
+  ___  _   _ ___ ____     ____    _    __  __ _____ 
+ / _ \| | | |_ _|__  |   / ___|  / \  |  \/  | ____|
+| | | | | | || |  / /   | |  _  / _ \ | |\/| |  _|  
+| |_| | |_| || | / /_   | |_| |/ ___ \| |  | | |___ 
+ \__\_\\___/|___/____|   \____/_/   \_\_|  |_|_____|
+                                                     
 ```
 
-## Nhóm 10 - Quiz Game Project
+# 🎮 QUIZ GAME - Trò Chơi Đố Vui Trực Tuyến
 
-### Mô tả dự án
-Ứng dụng Quiz Game với kiến trúc client-server, cho phép nhiều người chơi tham gia trả lời câu hỏi trắc nghiệm theo thời gian thực.
+Một ứng dụng quiz game đa người chơi được xây dựng bằng Python với giao diện đồ họa Tkinter.
 
-### Tính năng
-- 🎮 Giao diện đồ họa thân thiện với người dùng
-- 🌐 Hỗ trợ nhiều người chơi cùng lúc
-- ⏱️ Hệ thống tính điểm theo thời gian
-- 📊 Bảng xếp hạng trực tiếp
-- 💾 Lưu trữ câu hỏi từ file CSV
+## ✨ Tính năng
 
-### Cấu trúc dự án
-```
-phong-confi/
-├── client/          # Ứng dụng client
-├── server/          # Server xử lý game
-├── core/            # Logic dùng chung
-├── config/          # Cấu hình
-└── data/            # Dữ liệu câu hỏi
-```
+- 🌐 Chơi trực tuyến nhiều người
+- 💬 Hệ thống chat realtime
+- 📊 Bảng xếp hạng điểm số
+- 🎯 Nhiều loại câu hỏi
+- 🖥️ Giao diện thân thiện
 
-### Cài đặt
+## 🚀 Cài đặt
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### Sử dụng
-1. Chạy server:
+## 📖 Hướng dẫn sử dụng
+
+### Chạy Server
 ```bash
 python server/server.py
 ```
 
-2. Chạy client:
+### Chạy Client
 ```bash
 python client/gui_client.py
 ```
+
