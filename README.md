@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Update 1
 
 # Update 2
@@ -19,4 +20,9 @@
 # Update 10
 
 # Update 11
+=======
+# Quiz Game Project
+
+A multiplayer quiz game with client-server architecture.
+>>>>>>> 18fa873
 
