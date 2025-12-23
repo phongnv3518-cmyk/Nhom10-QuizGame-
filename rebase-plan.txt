@@ -1,0 +1,38 @@
+﻿# Git Rebase Plan - Copy these commands into the rebase editor
+# When you run: git rebase -i 2e58bda
+# Replace the content with this:
+
+pick 7b02701 init: Project initialization
+squash d4d77d6 feat(data): Add questions database
+
+pick 9ea7496 feat(core): Core logic and protocols
+squash 2b0d3f5 feat(config): Configuration system
+squash 3248872 feat(client): Client networking
+
+pick ce1a679 feat(client): Client GUI implementation
+squash dd06d5e feat(server): Server core functionality
+squash 5c7a23e feat(server): Server utilities
+squash ea3d4c3 feat(server): Server dashboard
+squash 56e91cd fix: Critical bug fixes
+
+pick 0241635 docs: Git workflow automation
+squash b1bd5bd chore: Update project structure
+squash 2e10d11 chore: Remove unnecessary Git scripts
+
+pick 0d35698 docs(client): Add client module documentation
+squash 754df17 docs(core): Add core module documentation
+
+pick 8b7aa94 remove: Remove client and config folders for team members
+squash b07114f chore: update project structure and add bug fixes
+
+pick f9b4c7b feat(client): Add client module
+
+pick 107467f docs: Clean up README
+squash 09b8dd7 index on main: 107467f docs: Clean up README  
+squash d812100 WIP on main: 107467f docs: Clean up README
+squash 40641a6 docs: Clean up README
+
+pick 0a801a6 feat: add initial config setup
+
+pick 8cdf79f Add QUIZ GAME ASCII art title and project description
+squash d5ca1b9 docs: Add QUIZ GAME ASCII art title and complete README
